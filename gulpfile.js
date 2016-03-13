@@ -31,7 +31,8 @@ gulp.task('js-watch', ['scripts'], browserSync.reload);
 // Uglify-js Plugins Tasks
 gulp.task('uglify-js', function() {
   return gulp.src(['components/libs/bootstrap/dist/js/bootstrap.js',
-    'components/libs/jquery/dist/jquery.js'])
+    'components/libs/jquery/dist/jquery.js',
+    'components/libs/owlcarousel/owl-carousel/owl.carousel.js'])
   	.pipe(rename({
 	    suffix: ".min",
 	    extname: ".js"
@@ -42,7 +43,8 @@ gulp.task('uglify-js', function() {
 
 // Minify-css Plugins Tasks
 gulp.task('minify-css', function() {
-  return gulp.src('components/libs/bootstrap/dist/css/bootstrap.css')
+  return gulp.src(['components/libs/bootstrap/dist/css/bootstrap.css',
+    'components/libs/owlcarousel/owl-carousel/owl.carousel.css'])
     .pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(rename({
 	    suffix: ".min",

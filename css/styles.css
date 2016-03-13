@@ -19,7 +19,7 @@ a {
   position: relative; }
 
 .container {
-  max-width: 1170px;
+  max-width: 1200;
   margin: 0 auto; }
   .container:after {
     content: '';
@@ -34,6 +34,7 @@ a {
   background: #2b3136;
   border: none;
   border-radius: 0;
+  margin-bottom: 0;
   padding-top: 5px;
   padding-bottom: 5px; }
   #navigation .nav a {
@@ -71,3 +72,63 @@ a {
     #navigation .navbar-right {
       width: 100%;
       float: none; } }
+
+#intro-slider {
+  margin-bottom: 30px; }
+  #intro-slider .item {
+    max-height: 500px;
+    overflow: hidden; }
+    #intro-slider .item img {
+      display: block;
+      width: 100%; }
+
+#welcome {
+  background: #fff;
+  padding: 80px 0;
+  margin-bottom: 30px; }
+  #welcome h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #40c296; }
+  #welcome h2 {
+    margin: 0 0 20px;
+    font-size: 30px;
+    color: #40c296; }
+  #welcome p {
+    color: #2b3136;
+    margin: 0; }
+
+#induction .box {
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 40px 0; }
+  #induction .box h3 {
+    margin: 0 0 30px;
+    padding: 15px;
+    background: #2b3136;
+    color: #fff; }
+  #induction .box .text-wrap {
+    padding: 0 15px; }
+    #induction .box .text-wrap p {
+      margin: 0 0 30px;
+      float: left; }
+    #induction .box .text-wrap img {
+      float: right;
+      width: 39%;
+      height: auto;
+      margin: 10px 0 10px 10px;
+      border: 2px solid #40c296; }
+    #induction .box .text-wrap .btn {
+      font-weight: 700;
+      background: #40c296;
+      border: none;
+      border-radius: 0;
+      padding: 10px 30px;
+      opacity: 1; }
+      #induction .box .text-wrap .btn:hover {
+        opacity: 0.8; }
+
+#about {
+  padding: 80px 0;
+  background: #9ba3a6;
+  text-align: center; }

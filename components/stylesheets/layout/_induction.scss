@@ -1,0 +1,40 @@
+#induction {
+	.box {
+		background: #fff;
+		margin-bottom: 30px;
+		padding: 40px 0;
+
+		h3 {
+			margin: 0 0 30px;
+			padding: 15px;
+			background: #2b3136;
+			color: #fff;
+		}
+
+		.text-wrap {
+			padding: 0 15px;
+			p {
+				margin: 0 0 30px;
+				float: left;
+			}
+			img {
+				float: right;
+				width: 39%;
+				height: auto;
+				margin: 10px 0 10px 10px;
+				border: 2px solid #40c296;
+			}
+			.btn {
+				font-weight: 700;
+				background: #40c296;
+				border: none;
+				border-radius: 0;
+				padding: 10px 30px;
+				opacity: 1;
+				&:hover {
+					opacity: 0.8;
+				}
+			}
+		}
+	}
+}

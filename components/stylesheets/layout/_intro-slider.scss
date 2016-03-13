@@ -1,0 +1,12 @@
+#intro-slider {
+	margin-bottom: 30px;
+	.item {
+			max-height: 500px;
+			overflow: hidden;
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+}
+
