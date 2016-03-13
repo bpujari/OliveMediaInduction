@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #f2f0f4;
+  color: #2b3136;
+  font: 14px / 24px "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  min-width: 320px; }
+
+a {
+  outline: none; }
+  a:focus {
+    outline: none; }
+
+#wrapper {
+  position: relative; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+  .container:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+#main {
+  position: relative;
+  overflow: hidden; }

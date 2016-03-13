@@ -1,0 +1,29 @@
+// base color
+$base-background-color: #f2f0f4;
+$base-text-color: #2b3136;
+$base-link-color: #006edc;
+$base-form-text-color: $base-text-color;
+$base-form-placeholder-color: #adadad;
+$base-input-border-color: #d7d8d8;
+
+// base fonts
+$base-font-size: 14px;
+$base-line-height: 24px;
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-style: normal;
+$base-font-weight: 400;
+
+// base min width
+$base-min-width: 320px;
+
+// breakpoints
+$desktop-max: 1179px;
+$desktop: min-width 1025px; 	// for more than 1024px width
+$mobile-max: min-width 768px;
+$tablet: 1023px;				// tablet
+$tablet-range: 768px 1023px; 	// sample ragne
+$mobile: 767px; 				// mobile
+$mobile-hi-res: 767px (min-resolution 1.5dppx);  // mobile retina
+
+// @font-face-serif: 
+// @font-face-sans-serif:

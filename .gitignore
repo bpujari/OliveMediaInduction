@@ -1,0 +1,4 @@
+/components/libs
+/node_modules
+.thumbs_db
+.DS_STORE
