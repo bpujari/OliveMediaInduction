@@ -24,7 +24,12 @@
 	
 	.navbar-header {
 		.navbar-toggle {
+			border-color: #fff;
+			background: #40c296;
 			margin-right: 0;
+			.icon-bar {
+				color: #fff;
+			}
 		}
 		
 		@media (max-width: 991px){
@@ -32,6 +37,7 @@
 			width: 100%;
 			text-align: center;
 		}
+
 		@media (max-width: 767px){
 			margin: 0;
 		}
@@ -44,12 +50,14 @@
 				float: none;
 				padding: 0;
 			}
+
 			@media (max-width: 767px){
 				float: left;
 				padding: 15px 0;
 			}
 		}
 	}
+
 	.navbar-right {
 		@media (max-width: 991px){
 			width: 100%;

@@ -22,16 +22,6 @@ a {
 	position: relative;
 }
 
-.container {
-	max-width: 1200;
-	margin: 0 auto;
-	&:after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-}
-
 #main {
 	position: relative;
 	overflow: hidden;

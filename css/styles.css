@@ -18,14 +18,6 @@ a {
 #wrapper {
   position: relative; }
 
-.container {
-  max-width: 1200;
-  margin: 0 auto; }
-  .container:after {
-    content: '';
-    display: block;
-    clear: both; }
-
 #main {
   position: relative;
   overflow: hidden; }
@@ -47,7 +39,11 @@ a {
   #navigation .dropdown-menu {
     background: #2b3136; }
   #navigation .navbar-header .navbar-toggle {
+    border-color: #fff;
+    background: #40c296;
     margin-right: 0; }
+    #navigation .navbar-header .navbar-toggle .icon-bar {
+      color: #fff; }
   @media (max-width: 991px) {
     #navigation .navbar-header {
       margin: 20px 0 10px;
@@ -87,6 +83,8 @@ a {
         left: -50%;
         width: 100%;
         height: auto; }
+  #intro-slider .grabbing {
+    cursor: url(/images/grabbing.png) 8 8, move; }
 
 #welcome {
   background: #fff;
@@ -94,15 +92,22 @@ a {
   margin-bottom: 30px; }
   #welcome h3 {
     margin: 0 0 10px;
-    font-size: 24px;
     color: #40c296; }
+    @media (max-width: 359px) {
+      #welcome h3 {
+        font-size: 22px; } }
   #welcome h2 {
     margin: 0 0 20px;
-    font-size: 30px;
     color: #40c296; }
+    @media (max-width: 359px) {
+      #welcome h2 {
+        font-size: 28px; } }
   #welcome p {
     color: #2b3136;
     margin: 0; }
+    @media (max-width: 991px) {
+      #welcome p {
+        margin-bottom: 30px; } }
 
 #induction .box {
   background: #fff;
@@ -118,12 +123,12 @@ a {
     #induction .box .text-wrap p {
       margin: 0 0 30px;
       float: left; }
-    #induction .box .text-wrap img {
-      float: right;
-      width: 39%;
-      height: auto;
-      margin: 10px 0 10px 10px;
-      border: 2px solid #40c296; }
+      #induction .box .text-wrap p img {
+        float: right;
+        width: 39%;
+        height: auto;
+        margin: 10px 0 10px 10px;
+        border: 2px solid #40c296; }
     #induction .box .text-wrap .btn {
       font-weight: 700;
       background: #40c296;
@@ -132,9 +137,54 @@ a {
       padding: 10px 30px;
       opacity: 1; }
       #induction .box .text-wrap .btn:hover {
-        opacity: 0.8; }
+        opacity: 0.8;
+        transition: all 0.6s ease; }
 
 #about {
-  padding: 80px 0;
   background: #9ba3a6;
+  margin-bottom: 30px;
+  padding: 80px 0;
   text-align: center; }
+  #about h2 {
+    color: #40c296;
+    margin: 0 0 40px; }
+  #about p {
+    color: #fff;
+    margin: 0; }
+
+#footer {
+  background: #2b3136;
+  padding: 15px 0; }
+  #footer .copy-right {
+    margin: 0;
+    color: #fff;
+    font-size: 18px; }
+    @media (max-width: 479px) {
+      #footer .copy-right {
+        font-size: 14px; } }
+  #footer .social-networks {
+    margin: 0;
+    text-align: right; }
+    #footer .social-networks li {
+      margin-left: 15px; }
+      @media (max-width: 479px) {
+        #footer .social-networks li {
+          margin-left: 5px; } }
+      #footer .social-networks li .fa {
+        font-size: 18px;
+        color: #fff; }
+        @media (max-width: 479px) {
+          #footer .social-networks li .fa {
+            font-size: 14px; } }
+      #footer .social-networks li .fa-facebook:hover {
+        color: #3765A3;
+        transition: all 0.6s ease; }
+      #footer .social-networks li .fa-twitter:hover {
+        color: #33CCFF;
+        transition: all 0.6s ease; }
+      #footer .social-networks li .fa-youtube-play:hover {
+        color: #DE2925;
+        transition: all 0.6s ease; }
+      #footer .social-networks li .fa-linkedin:hover {
+        color: #0274B3;
+        transition: all 0.6s ease; }
