@@ -1,12 +1,19 @@
 #intro-slider {
 	margin-bottom: 30px;
 	.item {
-			max-height: 500px;
-			overflow: hidden;
-		img {
-			display: block;
+		overflow:hidden;
+		.img-wrap {
 			width: 100%;
+			min-width: 700px;
+			position: relative;
+			left: 50%;
+
+			img {
+				position: relative;
+				left: -50%;
+				width: 100%;
+				height: auto;
+			}
 		}
 	}
 }
-

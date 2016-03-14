@@ -76,11 +76,17 @@ a {
 #intro-slider {
   margin-bottom: 30px; }
   #intro-slider .item {
-    max-height: 500px;
     overflow: hidden; }
-    #intro-slider .item img {
-      display: block;
-      width: 100%; }
+    #intro-slider .item .img-wrap {
+      width: 100%;
+      min-width: 700px;
+      position: relative;
+      left: 50%; }
+      #intro-slider .item .img-wrap img {
+        position: relative;
+        left: -50%;
+        width: 100%;
+        height: auto; }
 
 #welcome {
   background: #fff;
