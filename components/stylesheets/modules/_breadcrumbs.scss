@@ -1,0 +1,18 @@
+#breadcrumbs-holder {
+	background: #9ba3a6;
+	margin-bottom: 30px;
+	.breadcrumb {
+		margin: 0;
+		padding: 15px;
+		background: transparent;
+		li {
+			color: #fff;
+			&:before {
+				color: #fff;
+			}
+			a {
+				color: #fff;
+			}
+		}
+	}
+}
