@@ -218,6 +218,26 @@ a {
       width: 100%;
       height: auto; }
 
+.academyhq-app {
+  background: #fff;
+  margin: 30px 0; }
+  .academyhq-app .text-wrap {
+    margin: 60px 0; }
+    @media (max-width: 991px) {
+      .academyhq-app .text-wrap {
+        margin: 30px 0; } }
+    .academyhq-app .text-wrap h3 {
+      color: #40c296;
+      margin: 0 0 20px; }
+    .academyhq-app .text-wrap p {
+      margin: 0;
+      color: #2b3136; }
+  .academyhq-app .video-wrap {
+    margin: 60px 0; }
+    @media (max-width: 991px) {
+      .academyhq-app .video-wrap {
+        margin: 30px 0; } }
+
 #footer {
   background: #2b3136;
   padding: 15px 0; }
