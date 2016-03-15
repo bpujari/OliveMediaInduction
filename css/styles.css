@@ -318,6 +318,26 @@ a {
           opacity: 0.8;
           transition: all 0.6s ease; }
 
+.hiup {
+  background: #fff;
+  margin: 30px 0; }
+  .hiup .text-wrap {
+    margin: 60px 0; }
+    @media (max-width: 991px) {
+      .hiup .text-wrap {
+        margin: 30px 0; } }
+    .hiup .text-wrap h3 {
+      color: #40c296;
+      margin: 0 0 20px; }
+    .hiup .text-wrap p {
+      margin: 0;
+      color: #2b3136; }
+  .hiup .video-wrap {
+    margin: 60px 0; }
+    @media (max-width: 991px) {
+      .hiup .video-wrap {
+        margin: 30px 0; } }
+
 #footer {
   background: #2b3136;
   padding: 15px 0; }
