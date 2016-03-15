@@ -1,1 +1,1 @@
-$(document).ready(function(){$("#intro-slider").owlCarousel({navigation:!1,slideSpeed:300,paginationSpeed:400,singleItem:!0,autoPlay:!0})});
+$(document).ready(function(){$("#intro-slider").owlCarousel({navigation:!1,slideSpeed:300,paginationSpeed:400,singleItem:!0,autoPlay:!0})}),$(document).ready(function(){$(".player").mb_YTPlayer()});

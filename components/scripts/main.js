@@ -19,3 +19,10 @@ $(document).ready(function() {
  
 });
 
+// video player
+$(document).ready(function () {
+
+    $(".player").mb_YTPlayer();
+
+});
+

@@ -26,3 +26,35 @@ a {
 	position: relative;
 	overflow: hidden;
 }
+
+ // video section
+.video-section {
+	.text-wrap {
+		margin-top: 5%;
+		h2 {
+			color:#40c296;
+			font-weight: 700;
+			text-align:center;
+		}
+		.fa {
+			width: 100%;
+			color:#40c296;
+			font-size: 60px;
+			text-align:center;
+		}
+	}
+	.buttonBar{display:none;}
+	.pattern-overlay {
+		background-color: rgba(71, 71, 71, 0.59);
+		padding: 110px 0 32px;
+		min-height: 500px; 
+		/* Incase of overlay problems just increase the min-height*/
+		@media(max-width:1199px){
+			min-height: 400px;
+		}
+		@media(max-width:479px){
+			min-height: 350px;
+		}
+		.player {font-size: 1px;}
+	}
+}

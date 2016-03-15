@@ -22,6 +22,35 @@ a {
   position: relative;
   overflow: hidden; }
 
+.video-section .text-wrap {
+  margin-top: 5%; }
+  .video-section .text-wrap h2 {
+    color: #40c296;
+    font-weight: 700;
+    text-align: center; }
+  .video-section .text-wrap .fa {
+    width: 100%;
+    color: #40c296;
+    font-size: 60px;
+    text-align: center; }
+
+.video-section .buttonBar {
+  display: none; }
+
+.video-section .pattern-overlay {
+  background-color: rgba(71, 71, 71, 0.59);
+  padding: 110px 0 32px;
+  min-height: 500px;
+  /* Incase of overlay problems just increase the min-height*/ }
+  @media (max-width: 1199px) {
+    .video-section .pattern-overlay {
+      min-height: 400px; } }
+  @media (max-width: 479px) {
+    .video-section .pattern-overlay {
+      min-height: 350px; } }
+  .video-section .pattern-overlay .player {
+    font-size: 1px; }
+
 #navigation {
   background: #2b3136;
   border: none;
@@ -82,7 +111,10 @@ a {
         position: relative;
         left: -50%;
         width: 100%;
-        height: auto; }
+        height: 500px; }
+        @media (max-width: 479px) {
+          #intro-slider .item .img-wrap img {
+            height: 320px; } }
   #intro-slider .grabbing {
     cursor: url(/images/grabbing.png) 8 8, move; }
 
