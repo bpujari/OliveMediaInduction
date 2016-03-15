@@ -258,6 +258,34 @@ a {
       .mobile-app .video-wrap {
         margin: 30px 0; } }
 
+#our-courses {
+  margin-top: 30px; }
+  #our-courses .box {
+    background: #fff;
+    border: 2px solid #40c296;
+    margin-bottom: 30px; }
+    #our-courses .box img {
+      width: 100%;
+      height: auto; }
+    #our-courses .box .text-wrap {
+      margin: 30px 15px; }
+      #our-courses .box .text-wrap h3 {
+        margin: 0 0 20px;
+        color: #40c296; }
+      #our-courses .box .text-wrap p {
+        margin: 0 0 30px;
+        color: #9ba3a6; }
+      #our-courses .box .text-wrap .btn {
+        font-weight: 700;
+        background: #40c296;
+        border: none;
+        border-radius: 0;
+        padding: 10px 30px;
+        opacity: 1; }
+        #our-courses .box .text-wrap .btn:hover {
+          opacity: 0.8;
+          transition: all 0.6s ease; }
+
 #footer {
   background: #2b3136;
   padding: 15px 0; }
