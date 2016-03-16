@@ -98,6 +98,42 @@ a {
       width: 100%;
       float: none; } }
 
+@media (min-width: 768px) {
+  .roll {
+    display: inline-block;
+    overflow: hidden;
+    perspective: 400px;
+    perspective-origin: 50% 50%;
+    position: relative;
+    transform-style: preserve-3d;
+    vertical-align: top;
+    z-index: 200; }
+    .roll span {
+      display: inline-block;
+      vertical-align: top;
+      height: 18px;
+      overflow: hidden;
+      padding: 0 2px;
+      pointer-events: none;
+      position: relative;
+      transform-origin: 50% 0 0;
+      transform-style: preserve-3d;
+      transition: all 400ms ease 0s; }
+      .roll span:after {
+        background: #2b3136;
+        color: #40c296;
+        content: attr(data-title);
+        display: block;
+        left: 0;
+        padding: 0 2px;
+        position: absolute;
+        top: 1px;
+        transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
+        transform-origin: 50% 0 0; }
+  a.roll:hover span {
+    overflow: visible;
+    transform: translate3d(0px, 0px, -24px) rotateX(90deg); } }
+
 #intro-slider {
   margin-bottom: 30px; }
   #intro-slider .item {
