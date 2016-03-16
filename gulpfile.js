@@ -45,6 +45,7 @@ gulp.task('uglify-js', function() {
 gulp.task('minify-css', function() {
   return gulp.src(['components/libs/bootstrap/dist/css/bootstrap.css',
     'components/libs/owlcarousel/owl-carousel/owl.carousel.css',
+    'components/libs/owlcarousel/owl-carousel/owl.theme.css',
     'components/libs/font-awesome/css/font-awesome.css'])
     .pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(rename({

@@ -51,6 +51,10 @@ a {
   .video-section .pattern-overlay .player {
     font-size: 1px; }
 
+#header {
+  margin-bottom: 60px;
+  overflow: hidden; }
+
 #navigation {
   background: #2b3136;
   border: none;
@@ -373,6 +377,72 @@ a {
     @media (max-width: 991px) {
       .hiup .video-wrap {
         margin: 30px 0; } }
+
+#intro-agile {
+  background: #fff;
+  padding: 80px 0;
+  margin-bottom: 30px; }
+  #intro-agile h3 {
+    margin: 0 0 10px;
+    color: #40c296; }
+    @media (max-width: 359px) {
+      #intro-agile h3 {
+        font-size: 22px; } }
+  #intro-agile h2 {
+    margin: 0 0 20px;
+    color: #40c296; }
+    @media (max-width: 359px) {
+      #intro-agile h2 {
+        font-size: 28px; } }
+  #intro-agile p {
+    color: #2b3136;
+    margin: 0; }
+    @media (max-width: 991px) {
+      #intro-agile p {
+        margin-bottom: 30px; } }
+
+#carousel-wrap {
+  padding: 80px 0 50px;
+  background: #2b3136; }
+
+#carousel .item {
+  margin: 3px; }
+  #carousel .item img {
+    display: block;
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto; }
+
+#agile-features {
+  padding: 80px 0; }
+  #agile-features .block {
+    text-align: center; }
+    #agile-features .block h3 {
+      color: #40c296; }
+    #agile-features .block p {
+      margin: 0;
+      color: #2b3136; }
+
+#agile-approaches {
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 80px 0; }
+  #agile-approaches h2 {
+    margin: 0 0 30px;
+    color: #40c296; }
+  #agile-approaches h3 {
+    margin-top: 0; }
+  #agile-approaches .btn {
+    float: right;
+    font-weight: 700;
+    background: #40c296;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    opacity: 1; }
+    #agile-approaches .btn:hover {
+      opacity: 0.8;
+      transition: all 0.6s ease; }
 
 #footer {
   background: #2b3136;

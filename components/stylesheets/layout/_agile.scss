@@ -1,0 +1,83 @@
+#intro-agile {
+	background: #fff;
+	padding: 80px 0;
+	margin-bottom: 30px;
+	h3 {
+		margin: 0 0 10px;
+		color: #40c296;
+		@media(max-width:359px) {
+			font-size: 22px;
+		}
+	}
+	h2 {
+		margin: 0 0 20px;
+		color: #40c296;
+		@media(max-width:359px) {
+			font-size: 28px;
+		}
+	}
+	p {
+		color: #2b3136;
+		margin: 0;
+		@media(max-width:991px){
+			margin-bottom: 30px;
+		}
+	}
+}
+
+#carousel-wrap {
+	padding: 80px 0 50px;
+	background: #2b3136;
+}
+
+#carousel {
+	.item	{
+ 	 margin: 3px;
+ 	 img {
+  		display: block;
+  		border: 1px solid #fff;
+  		width: 100%;
+  		height: auto;
+		}
+	}
+}
+
+#agile-features {
+	padding: 80px 0;
+	.block {
+		text-align: center;
+		h3 {
+			color: #40c296;
+		}
+		p {
+			margin: 0;
+			color: #2b3136;
+		}
+	}
+}
+
+#agile-approaches {
+	background: #fff;
+	margin-bottom: 30px;
+	padding: 80px 0;
+	h2 {
+		margin: 0 0 30px;
+		color: #40c296;
+	}
+	h3 {
+		margin-top: 0;
+	}
+	.btn {
+		float: right;
+		font-weight: 700;
+		background: #40c296;
+		border: none;
+		border-radius: 0;
+		padding: 10px 30px;
+		opacity: 1;
+		&:hover {
+			opacity: 0.8;
+			transition: all 0.6s ease;
+		}
+	}
+}
