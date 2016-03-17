@@ -413,10 +413,20 @@ a {
     width: 100%;
     height: auto; }
 
+#carousel .owl-controls .owl-page.active span,
+#carousel .owl-controls.clickable .owl-page:hover span {
+  background: #40c296; }
+
 #agile-features {
   padding: 80px 0; }
+  @media (max-width: 991px) {
+    #agile-features {
+      padding-bottom: 50px; } }
   #agile-features .block {
     text-align: center; }
+    @media (max-width: 991px) {
+      #agile-features .block {
+        margin-bottom: 30px; } }
     #agile-features .block h3 {
       color: #40c296; }
     #agile-features .block p {
@@ -427,6 +437,16 @@ a {
   background: #fff;
   margin-bottom: 30px;
   padding: 80px 0; }
+  #agile-approaches .block {
+    margin-bottom: 30px; }
+  #agile-approaches .img-wrap {
+    max-height: 256px;
+    overflow: hidden; }
+    @media (max-width: 991px) {
+      #agile-approaches .img-wrap {
+        margin-bottom: 30px; } }
+    #agile-approaches .img-wrap img {
+      width: 100%; }
   #agile-approaches h2 {
     margin: 0 0 30px;
     color: #40c296; }
@@ -443,6 +463,104 @@ a {
     #agile-approaches .btn:hover {
       opacity: 0.8;
       transition: all 0.6s ease; }
+
+#intro-scrum {
+  background: #fff;
+  padding: 80px 0;
+  margin-bottom: 30px; }
+  #intro-scrum h3 {
+    margin: 0 0 10px;
+    color: #40c296; }
+    @media (max-width: 359px) {
+      #intro-scrum h3 {
+        font-size: 22px; } }
+  #intro-scrum h2 {
+    margin: 0 0 20px;
+    color: #40c296; }
+    @media (max-width: 359px) {
+      #intro-scrum h2 {
+        font-size: 28px; } }
+  #intro-scrum p {
+    color: #2b3136;
+    margin: 0; }
+    @media (max-width: 991px) {
+      #intro-scrum p {
+        margin-bottom: 30px; } }
+
+#carousel-wrap {
+  padding: 80px 0 50px;
+  background: #2b3136; }
+
+#carousel .item {
+  margin: 3px; }
+  #carousel .item img {
+    display: block;
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto; }
+
+#carousel .owl-controls .owl-page.active span,
+#carousel .owl-controls.clickable .owl-page:hover span {
+  background: #40c296; }
+
+#scrum-features {
+  padding: 80px 0 50px; }
+  @media (max-width: 991px) {
+    #scrum-features {
+      padding-bottom: 50px; } }
+  #scrum-features .block {
+    text-align: center; }
+    @media (max-width: 991px) {
+      #scrum-features .block {
+        margin-bottom: 30px; } }
+    #scrum-features .block h3 {
+      color: #40c296; }
+    #scrum-features .block p {
+      margin: 0 0 10px;
+      color: #2b3136; }
+  #scrum-features .learn-btn {
+    width: 100%;
+    font-weight: 700;
+    background: #40c296;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    opacity: 1; }
+    #scrum-features .learn-btn:hover {
+      opacity: 0.8;
+      transition: all 0.6s ease; }
+  #scrum-features .modal-footer .btn {
+    font-weight: 700;
+    background: #40c296;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    opacity: 1; }
+    #scrum-features .modal-footer .btn:hover {
+      opacity: 0.8;
+      transition: all 0.6s ease; }
+
+#scrum-approaches {
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 80px 0; }
+  #scrum-approaches .video-wrap {
+    margin-bottom: 10px; }
+  #scrum-approaches h2 {
+    margin: 0 0 20px;
+    color: #40c296; }
+  #scrum-approaches .panel-group {
+    margin-bottom: 0; }
+  #scrum-approaches .panel-heading {
+    background: #2b3136;
+    color: #fff; }
+    #scrum-approaches .panel-heading a:hover {
+      color: #40c296;
+      text-decoration: none; }
+    #scrum-approaches .panel-heading a:focus {
+      text-decoration: none; }
 
 #footer {
   background: #2b3136;
