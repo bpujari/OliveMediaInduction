@@ -542,24 +542,38 @@ a {
       opacity: 0.8;
       transition: all 0.6s ease; }
 
-#scrum-approaches {
+#scrum-roles,
+#scrum-approaches,
+#scrum-glossary {
   background: #fff;
   margin-bottom: 30px;
   padding: 80px 0; }
-  #scrum-approaches .video-wrap {
+  #scrum-roles .video-wrap,
+  #scrum-approaches .video-wrap,
+  #scrum-glossary .video-wrap {
     margin-bottom: 10px; }
-  #scrum-approaches h2 {
+  #scrum-roles h2,
+  #scrum-approaches h2,
+  #scrum-glossary h2 {
     margin: 0 0 20px;
     color: #40c296; }
-  #scrum-approaches .panel-group {
+  #scrum-roles .panel-group,
+  #scrum-approaches .panel-group,
+  #scrum-glossary .panel-group {
     margin-bottom: 0; }
-  #scrum-approaches .panel-heading {
+  #scrum-roles .panel-heading,
+  #scrum-approaches .panel-heading,
+  #scrum-glossary .panel-heading {
     background: #2b3136;
     color: #fff; }
-    #scrum-approaches .panel-heading a:hover {
+    #scrum-roles .panel-heading a:hover,
+    #scrum-approaches .panel-heading a:hover,
+    #scrum-glossary .panel-heading a:hover {
       color: #40c296;
       text-decoration: none; }
-    #scrum-approaches .panel-heading a:focus {
+    #scrum-roles .panel-heading a:focus,
+    #scrum-approaches .panel-heading a:focus,
+    #scrum-glossary .panel-heading a:focus {
       text-decoration: none; }
 
 #footer {
