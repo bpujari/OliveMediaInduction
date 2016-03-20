@@ -51,6 +51,22 @@ a {
   .video-section .pattern-overlay .player {
     font-size: 1px; }
 
+#carousel-wrap {
+  padding: 80px 0 50px;
+  background: #2b3136; }
+
+#carousel .item {
+  margin: 3px; }
+  #carousel .item img {
+    display: block;
+    border: 1px solid #fff;
+    width: 100%;
+    height: auto; }
+
+#carousel .owl-controls .owl-page.active span,
+#carousel .owl-controls.clickable .owl-page:hover span {
+  background: #40c296; }
+
 #header {
   margin-bottom: 60px;
   overflow: hidden; }
@@ -487,22 +503,6 @@ a {
       #intro-scrum p {
         margin-bottom: 30px; } }
 
-#carousel-wrap {
-  padding: 80px 0 50px;
-  background: #2b3136; }
-
-#carousel .item {
-  margin: 3px; }
-  #carousel .item img {
-    display: block;
-    border: 1px solid #fff;
-    width: 100%;
-    height: auto; }
-
-#carousel .owl-controls .owl-page.active span,
-#carousel .owl-controls.clickable .owl-page:hover span {
-  background: #40c296; }
-
 #scrum-features {
   padding: 80px 0 50px; }
   @media (max-width: 991px) {
@@ -574,6 +574,88 @@ a {
     #scrum-roles .panel-heading a:focus,
     #scrum-approaches .panel-heading a:focus,
     #scrum-glossary .panel-heading a:focus {
+      text-decoration: none; }
+
+#intro-xp {
+  background: #fff;
+  padding: 80px 0;
+  margin-bottom: 30px; }
+  #intro-xp h3 {
+    margin: 0 0 10px;
+    color: #40c296; }
+    @media (max-width: 359px) {
+      #intro-xp h3 {
+        font-size: 22px; } }
+  #intro-xp h2 {
+    margin: 0 0 20px;
+    color: #40c296; }
+    @media (max-width: 359px) {
+      #intro-xp h2 {
+        font-size: 28px; } }
+  #intro-xp p {
+    color: #2b3136;
+    margin: 0; }
+    @media (max-width: 991px) {
+      #intro-xp p {
+        margin-bottom: 30px; } }
+
+#xp-features {
+  padding: 80px 0 50px; }
+  @media (max-width: 991px) {
+    #xp-features {
+      padding-bottom: 50px; } }
+  #xp-features .block {
+    text-align: center; }
+    @media (max-width: 991px) {
+      #xp-features .block {
+        margin-bottom: 30px; } }
+    #xp-features .block h3 {
+      color: #40c296; }
+    #xp-features .block p {
+      margin: 0 0 10px;
+      color: #2b3136; }
+  #xp-features .learn-btn {
+    width: 100%;
+    font-weight: 700;
+    background: #40c296;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    opacity: 1; }
+    #xp-features .learn-btn:hover {
+      opacity: 0.8;
+      transition: all 0.6s ease; }
+  #xp-features .modal-footer .btn {
+    font-weight: 700;
+    background: #40c296;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    padding: 10px 30px;
+    opacity: 1; }
+    #xp-features .modal-footer .btn:hover {
+      opacity: 0.8;
+      transition: all 0.6s ease; }
+
+#xp-roles {
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 80px 0; }
+  #xp-roles .video-wrap {
+    margin-bottom: 10px; }
+  #xp-roles h2 {
+    margin: 0 0 20px;
+    color: #40c296; }
+  #xp-roles .panel-group {
+    margin-bottom: 0; }
+  #xp-roles .panel-heading {
+    background: #2b3136;
+    color: #fff; }
+    #xp-roles .panel-heading a:hover {
+      color: #40c296;
+      text-decoration: none; }
+    #xp-roles .panel-heading a:focus {
       text-decoration: none; }
 
 #footer {
