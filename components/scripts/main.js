@@ -1,3 +1,4 @@
+// Intro Slider
 $(document).ready(function() {
  
   $("#intro-slider").owlCarousel({
@@ -19,7 +20,7 @@ $(document).ready(function() {
  
 });
 
-
+// Carousel
 $(document).ready(function() {
  
   $("#carousel").owlCarousel({
@@ -45,3 +46,7 @@ $(document).ready(function () {
 $('.collapse').collapse({
     toggle: false
 });
+
+// bootstrap for material design js call
+$.material.init();
+$.material.ripples();

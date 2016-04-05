@@ -32,7 +32,9 @@ gulp.task('js-watch', ['scripts'], browserSync.reload);
 gulp.task('uglify-js', function() {
   return gulp.src(['components/libs/bootstrap/dist/js/bootstrap.js',
     'components/libs/jquery/dist/jquery.js',
-    'components/libs/owlcarousel/owl-carousel/owl.carousel.js'])
+    'components/libs/owlcarousel/owl-carousel/owl.carousel.js',
+    'components/libs/bootstrap-material-design/dist/js/material.js',
+    'components/libs/bootstrap-material-design/dist/js/ripples.js'])
   	.pipe(rename({
 	    suffix: ".min",
 	    extname: ".js"
@@ -46,7 +48,9 @@ gulp.task('minify-css', function() {
   return gulp.src(['components/libs/bootstrap/dist/css/bootstrap.css',
     'components/libs/owlcarousel/owl-carousel/owl.carousel.css',
     'components/libs/owlcarousel/owl-carousel/owl.theme.css',
-    'components/libs/font-awesome/css/font-awesome.css'])
+    'components/libs/font-awesome/css/font-awesome.css',
+    'components/libs/bootstrap-material-design/dist/css/bootstrap-material-design.css',
+    'components/libs/bootstrap-material-design/dist/css/ripples.css'])
     .pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(rename({
 	    suffix: ".min",

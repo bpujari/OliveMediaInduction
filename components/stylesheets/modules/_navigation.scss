@@ -10,6 +10,7 @@
 		a {
 			background: #2b3136;
 			color: #fff;
+			font-size: 14px;
 			font-weight: 300;
 			&:hover {
 				color: #40c296;
@@ -20,6 +21,11 @@
 
 	.dropdown-menu {
 		background: #2b3136;
+		li {
+			@media(max-width: 767px){
+				padding-left: 20px;
+			}		
+		}
 	}
 	
 	.navbar-header {
@@ -53,7 +59,7 @@
 
 			@media (max-width: 767px){
 				float: left;
-				padding: 15px 0;
+				padding: 10px 0;
 			}
 		}
 	}
