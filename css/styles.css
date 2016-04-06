@@ -419,8 +419,18 @@ a {
 
 #intro-agile {
   background: #fff;
-  padding: 80px 0;
+  padding: 40px 0;
+  margin-top: 70px;
   margin-bottom: 30px; }
+  @media (max-width: 1199px) {
+    #intro-agile {
+      margin-top: 60px; } }
+  @media (max-width: 991px) {
+    #intro-agile {
+      margin-top: 120px; } }
+  @media (max-width: 767px) {
+    #intro-agile {
+      margin-top: 60px; } }
   #intro-agile h3 {
     margin: 0 0 10px;
     color: #40c296; }
