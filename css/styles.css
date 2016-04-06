@@ -73,6 +73,9 @@ a {
 #carousel .owl-controls.clickable .owl-page:hover span {
   background: #40c296; }
 
+.btn:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
 #header {
   overflow: hidden; }
 
