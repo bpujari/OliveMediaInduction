@@ -22,6 +22,12 @@ a {
   position: relative;
   overflow: hidden; }
 
+.content-right {
+  float: right; }
+  @media (max-width: 991px) {
+    .content-right {
+      float: none; } }
+
 .video-section .text-wrap {
   margin-top: 10%; }
   .video-section .text-wrap h2 {
@@ -68,7 +74,6 @@ a {
   background: #40c296; }
 
 #header {
-  margin-bottom: 60px;
   overflow: hidden; }
 
 #navigation {
@@ -248,10 +253,20 @@ a {
 
 #breadcrumbs-holder {
   background: #9ba3a6;
+  margin-top: 70px;
   margin-bottom: 30px; }
+  @media (max-width: 1199px) {
+    #breadcrumbs-holder {
+      margin-top: 60px; } }
+  @media (max-width: 991px) {
+    #breadcrumbs-holder {
+      margin-top: 120px; } }
+  @media (max-width: 767px) {
+    #breadcrumbs-holder {
+      margin-top: 60px; } }
   #breadcrumbs-holder .breadcrumb {
     margin: 0;
-    padding: 15px;
+    padding: 10px 15px;
     background: transparent; }
     #breadcrumbs-holder .breadcrumb li {
       color: #fff; }
@@ -491,8 +506,18 @@ a {
 
 #intro-scrum {
   background: #fff;
-  padding: 80px 0;
+  padding: 40px 0;
+  margin-top: 70px;
   margin-bottom: 30px; }
+  @media (max-width: 1199px) {
+    #intro-scrum {
+      margin-top: 60px; } }
+  @media (max-width: 991px) {
+    #intro-scrum {
+      margin-top: 120px; } }
+  @media (max-width: 767px) {
+    #intro-scrum {
+      margin-top: 60px; } }
   #intro-scrum h3 {
     margin: 0 0 10px;
     color: #40c296; }
@@ -588,8 +613,18 @@ a {
 
 #intro-xp {
   background: #fff;
-  padding: 80px 0;
+  padding: 40px 0;
+  margin-top: 70px;
   margin-bottom: 30px; }
+  @media (max-width: 1199px) {
+    #intro-xp {
+      margin-top: 60px; } }
+  @media (max-width: 991px) {
+    #intro-xp {
+      margin-top: 120px; } }
+  @media (max-width: 767px) {
+    #intro-xp {
+      margin-top: 60px; } }
   #intro-xp h3 {
     margin: 0 0 10px;
     color: #40c296; }

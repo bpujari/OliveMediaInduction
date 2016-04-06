@@ -1,9 +1,19 @@
 #breadcrumbs-holder {
 	background: #9ba3a6;
+	margin-top: 70px;
 	margin-bottom: 30px;
+	@media(max-width: 1199px) {
+		margin-top: 60px;
+	}
+	@media(max-width: 991px) {
+		margin-top: 120px;
+	}
+	@media(max-width: 767px) {
+		margin-top: 60px;
+	}
 	.breadcrumb {
 		margin: 0;
-		padding: 15px;
+		padding: 10px 15px;
 		background: transparent;
 		li {
 			color: #fff;

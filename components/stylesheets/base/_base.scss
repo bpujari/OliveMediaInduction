@@ -27,6 +27,13 @@ a {
 	overflow: hidden;
 }
 
+.content-right {
+	float: right;
+	@media(max-width: 991px) {
+		float: none;
+	}
+}
+
  // video section
 .video-section {
 	.text-wrap {
