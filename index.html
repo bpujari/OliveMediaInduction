@@ -29,79 +29,7 @@
 </head>
 <body>
 	<div id="wrapper">
-		<header id="header">
-			<nav id="navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="index.html">Olive Media Induction</a>
-					</div>
-			
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-ex1-collapse">
-						<ul class="nav navbar-nav navbar-right">
-							<li class="dropdown">
-								<a href="#!" class="dropdown-toggle roll" data-toggle="dropdown">
-								<span data-title="Deparments">Deparments</span> <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="department.html" class="roll"><span data-title="Web">Web</span></a></li>
-									<li><a href="department.html" class="roll"><span data-title="Production">Production</span></a></li>
-									<li><a href="department.html" class="roll"><span data-title="Support">Support</span></a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#!" class="dropdown-toggle roll" data-toggle="dropdown"><span data-title="Our Product">Our Product</span> <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#!" class="roll"><span data-title="AcademyHQ">AcademyHQ</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="Video Service">Video Service</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="Creating Leaders">Creating Leaders</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="Auth Service">Auth Service</span></a></li>
-									<li><a href="hiup.html" class="roll"><span data-title="Hiup">Hiup</span></a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#!" class="dropdown-toggle roll" data-toggle="dropdown"><span data-title="Training">Training</span> <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#!" class="roll"><span data-title="Front-end">Front-end</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="Back-end">Back-end</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="Q/A">Q/A</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="General">General</span></a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#!" class="dropdown-toggle roll" data-toggle="dropdown"><span data-title="Agile">Agile</span> <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="scrum.html" class="roll"><span data-title="Scrum">Scrum</span></a></li>
-									<li><a href="xp.html" class="roll"><span data-title="Xp">Xp</span></a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle roll" data-toggle="dropdown"><span data-title="E-learning ">E-learning</span> <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#!" class="roll"><span data-title="Scrom">Scrom</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="Xapi">Xapi</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="3D - Occulas Rift">3D - Occulas Rift</span></a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#!" class="dropdown-toggle roll" data-toggle="dropdown"><span data-title="Infrastructure">Infrastructure</span> <b class="caret"></b></a>
-								<ul class="dropdown-menu">
-									<li><a href="#!" class="roll"><span data-title="System">System</span></a></li>
-									<li><a href="#!" class="roll"><span data-title="Third Party Services">Third Party Services</span></a></li>
-								</ul>
-							</li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div>
-			</nav>
-		</header> <!-- End Header -->
-
+		<header id="header"></header>
 		<main id="main">
 			<div id="intro-slider" class="owl-carousel owl-theme">
 			  <div class="item">
@@ -206,24 +134,7 @@
 				</div>
 			</section> <!-- End About -->
 		</main> <!-- End Main -->
-		
-		<footer id="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6 col-xs-6">
-						<p class="copy-right">&copy; Olive Media 2016</p>
-					</div>
-					<div class="col-sm-6 col-xs-6">
-						<ul class="list-inline social-networks">
-							<li><a href="#!"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#!"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#!"><i class="fa fa-youtube-play"></i></a></li>
-							<li><a href="#!"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
+		<footer id="footer"></footer>
 	</div> <!-- End Wrapper -->
 
   <!-- Scripts -->
@@ -233,5 +144,9 @@
   <script src="js/material.min.js"></script>
 	<script src="js/ripples.min.js"></script>
   <script src="js/main.js"></script>
+  <script> 
+	  	$("#header").load("header.html");
+	  	$("#footer").load("footer.html");
+	</script>
 </body>
 </html>
